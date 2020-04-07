@@ -1,0 +1,12 @@
+.navbar {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 1px #e5eaf3;
+
+    &__title {
+        font-size: 24px;
+        margin-left: 32px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,56 @@
+.searchbar {
+    margin: 12px 0 12px 12px;
+
+    &__form {
+        width: 100%;
+    }
+
+    &__input {
+        padding: 8px 12px;
+        font-size: 16px;
+        border: none;
+        width: 976px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__filter-btn {
+        font-size: 16px;
+        height: 32px;
+        width: 80px;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-weight: bold;
+        color: white;
+        margin-left: 16px;
+        cursor: pointer;
+        transition: .2s;
+
+        &:hover {
+            background-color: lighten(black, 15%);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__clear-btn {
+        font-size: 16px;
+        height: 32px;
+        width: 80px;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-weight: bold;
+        margin-left: 12px;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

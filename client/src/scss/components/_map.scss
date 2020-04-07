@@ -1,0 +1,10 @@
+.map {
+    width: 1200px;
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+
+    &__box {
+        height: 715px !important;
+    }
+}
